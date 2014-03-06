@@ -1,0 +1,30 @@
+{
+  "name": "Gloggy",
+  "version": "0.0.0",
+  "description": "Dead simple Gist-backed blogging platform",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:svincent/gloggy"
+  },
+  "keywords": [
+    "blog",
+    "app"
+  ],
+  "author": "Simeon Vincent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/svincent/gloggy/issues"
+  },
+  "homepage": "http://glog.gy",
+  "private": true,
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "chai": "~1.9.0",
+    "grunt": "~0.4.2",
+    "grunt-mocha": "~0.4.10"
+  }
+}
